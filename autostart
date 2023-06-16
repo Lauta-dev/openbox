@@ -1,0 +1,35 @@
+# Iniciar apps
+
+## Restaurar wallpaper
+nitrogen --restore &
+
+## Polybar
+~/.config/polybar/launch.sh &
+
+## dunst
+dunst &
+
+## administrador de energia
+xfce4-power-manager &
+
+## para controlar el rofi con la tecla super
+ksuperkey -e 'Super_L=Alt_L|F1' &
+
+## configuracion de xfce4
+xfsettingsd &
+
+## Icono de wifi en la polybar
+nm-applet &
+
+## Icono de bluetooch en la polybar
+blueman-applet &
+
+## picom - transparencia
+picom --config ~/.config/openbox/picom-original.conf &
+
+## Polkit
+#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+ 
+## Plank
+plank &
+
